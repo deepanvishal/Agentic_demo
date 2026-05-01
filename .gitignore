@@ -1,0 +1,42 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Conda / venv
+venv/
+env/
+*.conda
+
+# ChromaDB
+chroma_db/
+
+# Database
+db/
+*.db
+*.sqlite3
+
+# Contracts (large files)
+backend/contracts/preloaded/
+backend/contracts/uploads/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+.next/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+.vscode/settings.json
+CUAD_v1.zip
